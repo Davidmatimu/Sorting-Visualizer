@@ -23,7 +23,7 @@ It consists of 4 main components.
 4. **Range Slider:** This component includes some range sliders through which array size and animation speed can be changed in real time.
 ![Range Slider](https://i.imgur.com/XhLEuFy.gif)
 
-# How does animations work?
+# How do the animations work?
 While the array is being sorted, we push some indexes of the array and boolean values into animations array. 
 These indexes are the indexes of the comparing element and final positioned element; and the boolean values are doSwap and isFinal which tells if the elment is being compared or is it in its final position. 
 Now, this animations array is passed to another function which basically changes the color and size of the bar of the indexes in animations array. 
